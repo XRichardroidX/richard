@@ -38,18 +38,12 @@ body{
   font:normal 75% Arial, Helvetica, sans-serif;
 }
 
-canvas{
-  display:block;
-  vertical-align:bottom;
-}
 
 
 
 /* ---- particles.js container ---- */
 
 #particles-js{
-  position:fixed;
-  margin-top:100px;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  height: 80%;
 }
